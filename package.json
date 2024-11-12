@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "npm start --prefix client",
+    "server": "node server/server.js",
+    "build": "npm run build --prefix client",
+    "test": "npm test --prefix client",
+    "eject": "npm run eject --prefix client"
+  }
+}
